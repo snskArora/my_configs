@@ -1,0 +1,66 @@
+theme = Ayu
+font-family = "ComicShannsMono Nerd Font Mono"
+font-size = 12.5
+
+# Hide the top bar / title bar
+window-decoration = none
+unfocused-split-fill = #696969 
+
+# keybindings
+
+keybind = clear
+
+# Re-add only the essential ones you want to keep
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+v=paste_from_clipboard
+keybind = ctrl+shift+t=new_tab
+keybind = ctrl+shift+w=close_surface
+keybind = ctrl+shift+n=new_window
+keybind = ctrl+tab=next_tab
+keybind = ctrl+shift+tab=previous_tab
+
+keybind = alt+q>x=close_surface
+
+# tabs 
+keybind = alt+q>t=new_tab
+keybind = alt+q>k=close_tab
+
+# split
+keybind = alt+q>s>r=new_split:right
+keybind = alt+q>s>d=new_split:down
+keybind = alt+q>s>l=new_split:left
+keybind = alt+q>s>u=new_split:up
+
+keybind = alt+down=goto_split:bottom
+keybind = alt+up=goto_split:top
+keybind = alt+left=goto_split:left
+keybind = alt+right=goto_split:right
+
+keybind = alt+q>shift+up=resize_split:up,10
+keybind = alt+q>shift+down=resize_split:down,10
+keybind = alt+q>shift+left=resize_split:left,10
+keybind = alt+q>shift+right=resize_split:right,10
+
+keybind = alt+q>ctrl+shift+up=resize_split:up,60
+keybind = alt+q>ctrl+shift+down=resize_split:down,60
+keybind = alt+q>ctrl+shift+left=resize_split:left,60
+keybind = alt+q>ctrl+shift+right=resize_split:right,60
+
+# Bind ctrl+1 through ctrl+9 to go to tabs 1-9
+keybind = ctrl+1=goto_tab:1
+keybind = ctrl+2=goto_tab:2
+keybind = ctrl+3=goto_tab:3
+keybind = ctrl+4=goto_tab:4
+keybind = ctrl+5=goto_tab:5
+keybind = ctrl+6=goto_tab:6
+keybind = ctrl+7=goto_tab:7
+keybind = ctrl+8=goto_tab:8
+keybind = ctrl+9=goto_tab:9
+
+# keybind = alt+q>z=toggle_split_zoom
+
+keybind = alt+q>s>e=equalize_splits
+
+# other
+copy-on-select = clipboard
+keybind = alt+q>ctrl+k=copy_url_to_clipboard
